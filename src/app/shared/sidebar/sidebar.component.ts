@@ -13,4 +13,8 @@ export class SidebarComponent  {
     return this.gifsService.historial;
   }
 
+  callGif(gifBuscado: string) {
+    this.gifsService.buscarGifs(gifBuscado);
+  }
+
 }
